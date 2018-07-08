@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary", "External
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHttpModule", "CustomHttpModule\CustomHttpModule.csproj", "{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHttpHandler", "CustomHttpHandler\CustomHttpHandler.csproj", "{AF9977AF-F087-48AA-8D02-4EA9328549D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9977AF-F087-48AA-8D02-4EA9328549D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9977AF-F087-48AA-8D02-4EA9328549D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9977AF-F087-48AA-8D02-4EA9328549D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9977AF-F087-48AA-8D02-4EA9328549D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
