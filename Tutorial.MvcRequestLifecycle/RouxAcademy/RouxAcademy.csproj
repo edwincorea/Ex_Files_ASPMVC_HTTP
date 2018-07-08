@@ -330,6 +330,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CustomHttpModule\CustomHttpModule.csproj">
+      <Project>{5d2095cd-a5d7-42de-b2e3-028d9ecfcd1c}</Project>
+      <Name>CustomHttpModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ExternalLibrary\ExternalLibrary.csproj">
       <Project>{d439c7ab-32fb-4926-9ea9-ba66dae13fc9}</Project>
       <Name>ExternalLibrary</Name>

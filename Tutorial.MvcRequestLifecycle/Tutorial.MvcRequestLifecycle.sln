@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouxAcademy", "RouxAcademy\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary", "ExternalLibrary\ExternalLibrary.csproj", "{D439C7AB-32FB-4926-9EA9-BA66DAE13FC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHttpModule", "CustomHttpModule\CustomHttpModule.csproj", "{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D439C7AB-32FB-4926-9EA9-BA66DAE13FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D439C7AB-32FB-4926-9EA9-BA66DAE13FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D439C7AB-32FB-4926-9EA9-BA66DAE13FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2095CD-A5D7-42DE-B2E3-028D9ECFCD1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
