@@ -19,6 +19,7 @@ namespace RouxAcademy.Controllers
             return View();
         }
 
+        [Route("Academics/Detail/{id:int?}")]
         public ActionResult ProgramDetails(int id)
         {
             return Content("Program Details");

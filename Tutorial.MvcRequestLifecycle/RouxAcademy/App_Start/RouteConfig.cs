@@ -11,6 +11,9 @@ namespace RouxAcademy
 
             routes.IgnoreRoute("{*allrss}", new { allrss = @".*\.rss(/.*)?" });
 
+            // Map attribute-defined routes
+            routes.MapMvcAttributeRoutes();
+
             routes.MapRoute(
                 name: "AcademicDetail",
                 url: "Academics/Detail/{id}",
