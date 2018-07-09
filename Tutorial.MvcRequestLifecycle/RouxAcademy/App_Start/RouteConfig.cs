@@ -12,6 +12,28 @@ namespace RouxAcademy
             routes.IgnoreRoute("{*allrss}", new { allrss = @".*\.rss(/.*)?" });
 
             routes.MapRoute(
+                name: "AcademicDetail",
+                url: "Academics/Detail/{id}",
+                defaults: new
+                {
+                    controller = "Home",
+                    acttion = "ProgramDetail",
+                    id = UrlParameter.Optional
+                },
+                constraints: new { id = @"\d+"}
+            );
+
+            routes.MapRoute(
+                name: "Academics",
+                url: "Academics",
+                defaults: new
+                {
+                    controller = "Home",
+                    action = "Programs"
+                }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

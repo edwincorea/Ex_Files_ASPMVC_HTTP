@@ -19,6 +19,11 @@ namespace RouxAcademy.Controllers
             return View();
         }
 
+        public ActionResult ProgramDetails(int id)
+        {
+            return Content("Program Details");
+        }
+
         public ActionResult Spotlight()
         {
             return View();
