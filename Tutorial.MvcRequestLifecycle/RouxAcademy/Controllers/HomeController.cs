@@ -1,4 +1,5 @@
 ﻿using RouxAcademy.LoggerService;
+using RouxAcademy.Models.HomeViewModels;
 using System.Web.Mvc;
 
 namespace RouxAcademy.Controllers
@@ -43,6 +44,22 @@ namespace RouxAcademy.Controllers
         public ActionResult Spotlight()
         {
             return View();
+        }
+
+        [HttpGet]
+        [ActionName("Contact")]
+        public ActionResult ContactUs()
+        {
+            return View("ContactUs");
+        }
+
+        [AcceptVerbs(HttpVerbs.Post)]
+        [ActionName("Contact")]
+        public ActionResult ContactUs(ContactViewModel contact)
+        {
+            //TODO: Forward contact info to support team
+
+            return View("ContactUs", contact);
         }
     }
 }

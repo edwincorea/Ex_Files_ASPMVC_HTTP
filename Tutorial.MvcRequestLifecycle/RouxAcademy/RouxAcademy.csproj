@@ -137,6 +137,7 @@
     </Compile>
     <Compile Include="LoggerService\ILogger.cs" />
     <Compile Include="LoggerService\Logger.cs" />
+    <Compile Include="Models\HomeViewModels\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -315,10 +316,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Programs.cshtml" />
     <Content Include="Views\Home\Spotlight.cshtml" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
