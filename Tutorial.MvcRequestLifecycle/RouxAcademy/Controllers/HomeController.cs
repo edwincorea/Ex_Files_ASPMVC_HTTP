@@ -1,11 +1,23 @@
-﻿using System.Web.Mvc;
+﻿using RouxAcademy.LoggerService;
+using System.Web.Mvc;
 
 namespace RouxAcademy.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILogger _logger;
+
+        public HomeController() { }
+
+        public HomeController(ILogger logger)
+        {
+            this._logger = logger;
+        }
+
         public ActionResult Index()
         {
+            this._logger.Log("Home Index action");
+
             return View(); 
         }
 

@@ -17,6 +17,9 @@ namespace RouxAcademy
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
+            // Register custom controller factory
+            ControllerBuilder.Current.SetControllerFactory(new CustomControllerFactory());
+
             // Application state
             Application["ApplicationStartDateTime"] = DateTime.Now;
         }
