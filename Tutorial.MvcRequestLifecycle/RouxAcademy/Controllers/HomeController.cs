@@ -23,6 +23,9 @@ namespace RouxAcademy.Controllers
 
         public ActionResult About()
         {
+            var logger = DependencyResolver.Current.GetService<ILogger>();
+            logger.Log("Home About action");
+
             return View();
         }
 

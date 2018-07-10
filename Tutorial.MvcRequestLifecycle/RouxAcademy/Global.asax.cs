@@ -20,6 +20,9 @@ namespace RouxAcademy
             // Register custom controller factory
             ControllerBuilder.Current.SetControllerFactory(new CustomControllerFactory());
 
+            // Register custom dependency resolver
+            DependencyResolver.SetResolver(new CustomDependencyResolver());
+
             // Application state
             Application["ApplicationStartDateTime"] = DateTime.Now;
         }
