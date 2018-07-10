@@ -1,9 +1,11 @@
-﻿using RouxAcademy.LoggerService;
+﻿using RouxAcademy.Filters;
+using RouxAcademy.LoggerService;
 using RouxAcademy.Models.HomeViewModels;
 using System.Web.Mvc;
 
 namespace RouxAcademy.Controllers
 {
+    [CustomActionFilter]
     public class HomeController : Controller
     {
         private readonly ILogger _logger;
