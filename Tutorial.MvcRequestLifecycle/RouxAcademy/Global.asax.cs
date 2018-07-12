@@ -25,6 +25,10 @@ namespace RouxAcademy
 
             // Application state
             Application["ApplicationStartDateTime"] = DateTime.Now;
+
+            ViewEngines.Engines.Clear();
+
+            ViewEngines.Engines.Add(new CustomViewEngine());
         }
 
         protected void Application_End()

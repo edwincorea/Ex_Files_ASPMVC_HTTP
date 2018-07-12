@@ -132,6 +132,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="CustomControllerFactory.cs" />
     <Compile Include="CustomDependencyResolver.cs" />
+    <Compile Include="CustomViewEngine.cs" />
     <Compile Include="Filters\CustomActionFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -311,7 +312,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_ContentLayout.cshtml" />
-    <Content Include="Views\Shared\_HeaderNavBar.cshtml" />
+    <Content Include="Views\Partial\_HeaderNavBar.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
